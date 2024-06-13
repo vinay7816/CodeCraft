@@ -1,0 +1,15 @@
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-Color:"#060606";
+    color:"#AAAEBC";
+   
+}
+.left{
+    display: flex !important;
+}
+.right{
+    display: flex;
+    color:"#AAAEBC";
+}

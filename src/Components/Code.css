@@ -1,0 +1,15 @@
+.code-container {
+    display: flex;
+    background-color: #060606;
+    height: 55vh;
+    padding: 8px;
+    gap: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .code-container {
+      flex-direction: column;
+      height: auto; /* Allow height to adjust based on content */
+    }
+  }
+  
