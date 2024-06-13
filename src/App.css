@@ -9,11 +9,11 @@
 @media (max-width: 768px) {
   .code-container {
     flex-direction: column;
-    height: auto; /* Allow height to adjust based on content */
+    height: auto; 
   }
 }
 
-/* CodeMirror styles */
+
 .CodeMirror {
   height: 340px !important;
   color: #fff;
@@ -27,7 +27,7 @@
   background: #1d1e22;
 }
 
-/* Responsive adjustments for CodeMirror */
+
 @media (max-width: 1024px) {
   .CodeMirror {
     height: 300px !important;
